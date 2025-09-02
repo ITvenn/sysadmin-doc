@@ -22,7 +22,8 @@ On peut ainsi bloquer ces adresses IP malveillantes. ☢️☠️🏴‍☠️�
 
 ### Étapes :
 - Ajout des adresses IP malveillantes dans une règle de filtrage
-  <img width="865" height="459" alt="{B44A2684-EFB4-4FE0-80BE-949C23F99CB4}" src="https://github.com/user-attachments/assets/cab7e64a-c2e5-49b8-b05c-8d17757e8445" />
+<img width="865" height="459" alt="{B44A2684-EFB4-4FE0-80BE-949C23F99CB4}" src="https://github.com/user-attachments/assets/cab7e64a-c2e5-49b8-b05c-8d17757e8445" />
+
 - Recherche par mots-clés des adresses IP malveillantes :  
   - Scanner  
   - Tor  
@@ -30,14 +31,18 @@ On peut ainsi bloquer ces adresses IP malveillantes. ☢️☠️🏴‍☠️�
   - Malicious  
   - Proxy  
   - Phishing  
-  - VPN  
+  - VPN
+
 - Configuration de la règle pour matcher tout le trafic entrant
----------------------------------------------------------------------------IMAGE-------------------------------------------------------------------------------
+<img width="826" height="455" alt="{42DED69A-6BE5-4BCB-A902-491CDA420FCD}" src="https://github.com/user-attachments/assets/8c590389-e489-4b41-a72f-3c066ad9b8a4" />
+
 - Activation en CLI du paramétrage `match-vip`
----------------------------------------------------------------------------IMAGE-------------------------------------------------------------------------------
+<img width="335" height="55" alt="{D91B661E-55EC-4380-8218-58F167F68305}" src="https://github.com/user-attachments/assets/da6240fb-a985-41eb-b934-31de1c691e52" />
+
   
 👉 **Effet :** disparition de vos services publiés des scanners utilisés par les cyberattaquants pour trouver des cibles.
----------------------------------------------------------------------------IMAGE-------------------------------------------------------------------------------
+<img width="667" height="227" alt="{781EABFE-00B6-4282-A4F5-A77A563DE181}" src="https://github.com/user-attachments/assets/5bb33bdc-76c6-44cb-b84f-32948129c62f" />
+
 
 ### Bonus :
 - Filtrage granulaire des interfaces d’administration avec les **local-in-policy** :  
@@ -55,10 +60,13 @@ Cela réduit considérablement la probabilité qu’ils soient détectés par le
 
 ### Étapes :
 - Création d’objets géographiques
----------------------------------------------------------------------------IMAGE-------------------------------------------------------------------------------
----------------------------------------------------------------------------IMAGE-------------------------------------------------------------------------------
+<img width="615" height="472" alt="{A5E16327-2426-4D34-AE7A-9A91BEAD555A}" src="https://github.com/user-attachments/assets/d640fec3-2e09-4a5d-8376-d6a671ded8aa" />
+
+<img width="726" height="364" alt="{C455F723-3703-4239-AE11-7A78B5463618}" src="https://github.com/user-attachments/assets/ed4ef4c6-a412-4022-b032-2159b186fb76" />
+
 - Application dans les règles de filtrage
----------------------------------------------------------------------------IMAGE-------------------------------------------------------------------------------
+<img width="1176" height="223" alt="{6E249AFB-BFBE-4850-91F0-2140E06A62A4}" src="https://github.com/user-attachments/assets/158df0b9-dd33-4d10-a90b-18c7dfe10777" />
+
 
 ---
 
@@ -69,26 +77,26 @@ Il est donc crucial d’en limiter l’exposition. 🌐📉
 
 ### Mesures recommandées :
 1. Limiter l’accès aux pays où se trouvent les utilisateurs nomades
----------------------------------------------------------------------------IMAGE-------------------------------------------------------------------------------
-3. Modifier le port par défaut (443 → autre)  
-4. Bloquer l’accès au Portail SSL aux sources malicieuses via l’Internet Service Database
+2. Modifier le port par défaut (443 → autre)
+<img width="804" height="468" alt="{E411984E-7997-4B08-B50B-93C179A88C63}" src="https://github.com/user-attachments/assets/bb59db87-0b4f-4cf6-9898-ae56c45c600e" />
+
+3. Bloquer l’accès au Portail SSL aux sources malicieuses via l’Internet Service Database
 
 ### Technique :
 - Faire écouter le portail SSL sur une **interface Loopback**
-
----------------------------------------------------------------------------IMAGE-------------------------------------------------------------------------------  
 - Création de l’interface Loopback
-  
----------------------------------------------------------------------------IMAGE-------------------------------------------------------------------------------
+<img width="459" height="297" alt="{AD22B065-A612-4585-8F9A-F8DCE8501177}" src="https://github.com/user-attachments/assets/a55cbc21-cd3d-46f1-afc8-1a939454d66e" />
+<img width="729" height="421" alt="{1522E2BB-B692-42AD-9C0C-0DCC9492963F}" src="https://github.com/user-attachments/assets/ebc4ec2f-cfd2-4c7c-9beb-3884c56b618b" />
+
 - Création de la Virtual IP
-  
----------------------------------------------------------------------------IMAGE-------------------------------------------------------------------------------
+<img width="752" height="526" alt="{E1730E8E-92EE-4E4F-AB23-EDF1129B6B78}" src="https://github.com/user-attachments/assets/bd5e18e2-bbe5-46b9-82f2-27d03c8a68ef" />
+
 - Création des règles de filtrage
-  
----------------------------------------------------------------------------IMAGE-------------------------------------------------------------------------------
+<img width="1160" height="494" alt="{F8D175E6-47FF-4CD9-B4B5-E6D9CC28608C}" src="https://github.com/user-attachments/assets/4df054f9-987a-47ec-baa2-b05d110efcb3" />
+
 - Modification de l’interface d’écoute du VPN SSL
-  
----------------------------------------------------------------------------IMAGE-------------------------------------------------------------------------------
+<img width="846" height="456" alt="{B3405D6D-0044-43AE-B801-81BADA233C07}" src="https://github.com/user-attachments/assets/ed399e68-50d0-4839-9af9-b6a0eeaefe08" />
+
 
 ---
 
