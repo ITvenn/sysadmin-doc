@@ -60,7 +60,7 @@ Cela réduit considérablement la probabilité qu’ils soient détectés par le
 
 ### Étapes :
 - Création d’objets géographiques
-<img width="615" height="472" alt="{A5E16327-2426-4D34-AE7A-9A91BEAD555A}" src="https://github.com/user-attachments/assets/d640fec3-2e09-4a5d-8376-d6a671ded8aa" />
+<img width="615" height="401" alt="{845FE85F-A61B-4D6B-9902-046A512732E8}" src="https://github.com/user-attachments/assets/27438263-590a-450d-81cf-65b2407d4b87" />
 
 <img width="726" height="364" alt="{C455F723-3703-4239-AE11-7A78B5463618}" src="https://github.com/user-attachments/assets/ed4ef4c6-a412-4022-b032-2159b186fb76" />
 
