@@ -110,9 +110,24 @@ Les **profils de sécurité** permettent de bloquer différents types de menaces
 - **Clients → Menaces (LAN → WAN)** : AntiVirus, IPS, DNS Filter, Web Filter, Application Control  
 
 ### Renforcements spécifiques :
-- **FortiSandbox Cloud** pour l’analyse avancée  
-- Blocage des catégories *Security Risk* et *Unrated* (avec possibilité d’exceptions)  
-- Application Control : blocage des catégories/applications indésirables  
+- **FortiSandbox Cloud** pour l’analyse avancée
+<img width="791" height="527" alt="{4ED86536-790D-47EA-B570-077B75A8D555}" src="https://github.com/user-attachments/assets/aafb9fa9-4314-4660-be1f-1d42b23c6823" />
+<img width="625" height="542" alt="{3B303724-032D-410D-A361-58FFEAE262DC}" src="https://github.com/user-attachments/assets/30d2d453-9a4d-4c21-a288-8035280cf2b3" />
+
+- Configuration sécurisée du profil AntiVirus
+<img width="801" height="569" alt="{B677A8F2-6616-478A-B976-CFBE975B0ABE}" src="https://github.com/user-attachments/assets/992ad83e-bb05-4fbd-8fc3-9902c80b5322" />
+
+- Configuration sécurisée du profil Intrusion Prevention
+<img width="788" height="501" alt="{FEAA9973-BCB3-481B-867B-1D316244FC2F}" src="https://github.com/user-attachments/assets/7fcae9a6-e049-4782-9816-6ad294518098" />
+
+- Configuration sécurisée du profil DNS Filter
+<img width="849" height="700" alt="{803D846A-4668-4459-BD95-64BCB7FBE9FE}" src="https://github.com/user-attachments/assets/292cd83a-01ec-4e67-ba54-077306789fd6" />
+
+- Configuration sécurisée du profil Web Filter
+<img width="860" height="693" alt="{91AC6D13-9481-424C-9ED7-4A0FA78E4DD8}" src="https://github.com/user-attachments/assets/d73cd531-87de-48f1-b8f6-360b8f433529" />
+
+- Configuration sécurisée du profil Application Control 
+<img width="885" height="647" alt="{7023912B-ABE6-4569-A51A-7892624AA90B}" src="https://github.com/user-attachments/assets/08214ce1-f49c-4f23-87cc-02137ad6f979" />
 
 ---
 
@@ -125,11 +140,23 @@ Une authentification basée sur **au moins deux facteurs** :
 - **Quelque chose que l’on est** (empreinte biométrique) 💡💭
 
 ### Solutions disponibles :
-- **FortiToken (physique ou mobile)** – gérés directement par FortiGate  
-- Authentification par **SMS ou Email**  
+- **FortiToken (physique ou mobile)** – gérés directement par FortiGate
+<img width="540" height="574" alt="{87C04743-9AE3-491D-B231-47306D603C7F}" src="https://github.com/user-attachments/assets/60bdc8ba-4ccf-45d0-a0dd-1e751c36a576" />
+
+<img width="570" height="579" alt="{0EAD55B2-BE29-41F5-9099-FCFA19E92E96}" src="https://github.com/user-attachments/assets/2c268094-ba30-44da-8dc4-c83ea60d3495" />
+
+<img width="572" height="476" alt="{047773AC-C9E1-487D-8FDA-E47D184DEE6A}" src="https://github.com/user-attachments/assets/43148be8-b18b-41cb-ae9d-275a5b3e758f" />
+
+<img width="1026" height="527" alt="{BAAA75B0-E18E-4DCE-AF36-B3D41858B908}" src="https://github.com/user-attachments/assets/83dc891e-7644-464a-b4dd-a27a6355db66" />
+
+- Authentification par **SMS ou Email**
+<img width="761" height="432" alt="{9CCE3EDB-5EA5-482C-A25E-CFD6A651CC1F}" src="https://github.com/user-attachments/assets/1589a183-28f8-41b2-afc0-8c15c7857c43" />
+ou en cli :
+<img width="570" height="124" alt="{78F08FBB-31D7-4DD5-B3E7-35C91EABB315}" src="https://github.com/user-attachments/assets/9acb1a01-b082-45c8-a837-3b3dbfa023e0" />
+
+
 - Intégration avec des **systèmes tiers (SAML : Microsoft, Google, etc.)**  
 
-👉 Guide FortiToken : [Réassignation des tokens](https://community.fortinet.com/t5/FortiAuthenticator/Technical-Tip-Migrating-users-and-FortiTokens-to-another/ta-p/193723)
 
 ---
 
@@ -137,17 +164,11 @@ Une authentification basée sur **au moins deux facteurs** :
 
 Le **FortiGate** permet de vérifier la conformité des postes se connectant au VPN SSL. 🛂  
 
-### Contrôles possibles :
-- Présence/absence d’un fichier  
-- Entrée de registre  
-- Processus lancé  
+<img width="638" height="460" alt="{2B49A9A5-AAF7-45ED-9C93-34DE2C2077F9}" src="https://github.com/user-attachments/assets/e18cc3a2-11af-4718-8221-a4d358abd7ab" />
 
-### Avancé :
-- Création de politiques de conformité via CLI (`config vpn ssl web host-check-software`)  
-- Gestion évoluée avec **FortiClient EMS Cloud (ZTNA, EPP/APT, Managed)**  
-  - [Fiche FortiClient](https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/og-forticlient.pdf)  
-- Solutions **FortiTrust** (IAM, ZTNA, SASE)  
-  - [Fiche FortiTrust](https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/og-fortitrust.pdf)
+<img width="783" height="591" alt="{CF20E50D-34F2-4FBF-8188-29DEF14D281F}" src="https://github.com/user-attachments/assets/1297a640-13e9-4fcc-afd8-231ed2089b1e" />
+
+
 
 ---
 
