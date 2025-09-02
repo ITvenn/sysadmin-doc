@@ -1,10 +1,5 @@
 # Durcissement de la sécurité du SI 🛡
 
-**Auteurs :**
-- Vincent HAMEL – Administrateur systèmes et réseaux  
-
----
-
 ## Sommaire
 1. Bloquer les IP indésirables  
 2. Réduire la surface d’exposition de ses services publiés sur Internet  
