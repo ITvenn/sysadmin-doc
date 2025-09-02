@@ -22,7 +22,7 @@ On peut ainsi bloquer ces adresses IP malveillantes. ☢️☠️🏴‍☠️�
 
 ### Étapes :
 - Ajout des adresses IP malveillantes dans une règle de filtrage
----------------------------------------------------------------------------IMAGE-------------------------------------------------------------------------------
+  <img width="865" height="459" alt="{B44A2684-EFB4-4FE0-80BE-949C23F99CB4}" src="https://github.com/user-attachments/assets/cab7e64a-c2e5-49b8-b05c-8d17757e8445" />
 - Recherche par mots-clés des adresses IP malveillantes :  
   - Scanner  
   - Tor  
